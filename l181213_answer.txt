@@ -1,0 +1,11 @@
+a)
+age is protected because we can use it directly in every child class without getter setter but first and last name are private so we need getter and setter to access them
+b)
+person::first_name inaccessible
+person::last_name inaccessible
+c)
+we have error while using print function which is inaccessible because first name and last name are private in person class and we can not access the private member of base classs in any of child class ethier the access mode is public 
+Q8
+no change occur when inherit type change from public to protected 
+Q9
+no mchange occur or no error found when inherit type change from public to private because we use getter setter for private member of base class
